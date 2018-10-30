@@ -72,7 +72,7 @@ echo -e "Execute: ${0}\n"
 	fi
 
 	# if there are vms running... shutdown
-	if [ ! -z $VM_LIST_RUNNING ]
+	if [ ! -z "$VM_LIST_RUNNING" ]
 	then
 		echo -e "\nRunning VMs: \n${VM_LIST_RUNNING}"
 		echo -e "\n======================================\n"
