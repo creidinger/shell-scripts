@@ -32,7 +32,7 @@ if [ ! -z "${VMS_RUNNING}" ]
 then
 	echo -e "List running VMS: \n ${VMS_RUNNING}\n"
 else
-	echo -e "No Virtually Machines are running."
+	echo -e "No VirtualBox VMs are running."
 	echo -e "\nEnd ${0}"
 	exit 0
 fi
